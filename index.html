@@ -8,15 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
+    <footer class="bg-[#659f8f]">
+        <div class="container" >
+            <footer class="bg-[#659f8f]">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"> <!--replaced grid with this new class grid-->
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
+                            <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-white" >Subscribe to our news letter for updates.</h1> <!--Added the rest of the words from the provided images-->
                             <div class="flex">
-                                <input id="email" type="text">
+                                <input id="email" type="text" placeholder="Email Address">
                                 <button class="w-full px-6 py-2.5 bg-white">
                                     Subscribe
                                 </button>
