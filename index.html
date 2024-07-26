@@ -14,28 +14,33 @@
                 <div class="container px-6 py-12 mx-auto">
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"> <!--replaced grid with this new class grid-->
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg text-xl font-semibold tracking-normal text-[#313131] xl:text-2xl dark:text-white" >Subscribe to our news letter for updates.</h1> <!--Added the rest of the words from the provided images-->
-                            <div class="flex">
+                            <h1 class="max-w-lg text-xl font-semibold tracking-wide text-[#313131] xl:text-2xl dark:text-white" >Subscribe to our newsletter for updates.</h1> <!--Added the rest of the words from the provided images-->
+                            <div class="flex flex-col justify-start sm:flex-row gap-1">
                                 <input id="email" type="text" placeholder="Email Address" class="px-4 py-2 text-[#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]"> <!--added a placeholder and class from ReadMe-->
-                                <button class="px-6 py-2.5 bg-orange-600 text-white hover:bg-orange-400 focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943] rounded-md ml-6"> <!--add class to style background of button-->
+                                <button class="px-6 py-2.5 bg-orange-600 text-white hover:bg-orange-400 focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943] rounded-md"> <!--add class to style background of button-->
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
+                            <p class="text-[#313131] font-semibold">Quick Link</p>
+                            <div class="flex py-4">
+                                <!--unordered list-->
+                                <ul class="text-[#313131] space-y-2">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Who We Are</a></li>
+                                    <li><a href="#">Our Philosophy</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+                            <p class="text-[#313131] font-semibold">Technologies</p>
+                            <div class="flex py-4">
+                                <ul class="text-[#313131] space-y-2">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
